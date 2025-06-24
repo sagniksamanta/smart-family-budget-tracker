@@ -4,8 +4,8 @@ spring:
   profiles:
     active: local
   datasource:
-    url: jdbc:postgresql://localhost:5432/smart-family-budget-tracker
-    username: postgres
+    url: jdbc:postgresql://localhost:5432/smart-family-budget-tracker-db
+    username: smart-family-budget-tracker-admin
     password: Sagnik@219
     driver-class-name: org.postgresql.Driver
   jpa:
